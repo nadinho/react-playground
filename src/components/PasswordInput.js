@@ -4,7 +4,8 @@ import styled from "@emotion/styled";
 const Input = styled.input`
   height: 45px;
   width: 250px;
-  outline: 2px solid black;
+  border: 2px solid black;
+  outline: none;
   font-size: 2.2rem;
   padding: 8px;
   &:focus {
