@@ -6,7 +6,7 @@ const Button = styled.button`
   border: none;
   box-shadow: 0px 3px 3px grey;
   border-radius: 15px;
-  font-size: ${props => getButtonSizebyFontSize(props)};
+  font-size: ${props => getFontSize(props)};
   cursor: pointer;
 
   &:hover {
@@ -15,7 +15,7 @@ const Button = styled.button`
   }
 `;
 
-const getButtonSizebyFontSize = props => {
+const getFontSize = props => {
   const size = {
     xs: "0.5rem",
     s: "1rem",
